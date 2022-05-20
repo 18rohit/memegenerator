@@ -1,0 +1,97 @@
+body{
+  margin:0;
+  box-sizing:border-box;
+}
+
+.header{
+  height:120px;
+  width:100%;
+  background-color:aquamarine;
+}
+
+.logo{
+  height: 80%;
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content:center;
+  padding-top:10px;
+  gap:20px;
+}
+
+.img-logo{
+  height: 100%;
+}
+
+.app-name{
+  font-size: 3em;
+  margin: 0;
+}
+
+.card{
+  width:60%;
+  margin: 4em auto;
+}
+
+.input-container{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-Content: center;
+}
+
+.input-text{
+  width: 45%;
+  font-size:1.5em;
+  text-indent: 0.3em;
+  padding:0.5em;
+  border-radius: 0.5em;
+  border: 1px solid aquamarine;
+}
+
+.rand-btn{
+  display:block;
+  width: 100%;
+  margin: 1em auto;
+  font-size: 2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  color:white;
+  border:none;
+  background-color:aquamarine;
+  border-radius: 0.5em;
+}
+
+.meme{
+  position:relative;
+}
+
+.meme-img{
+  width:100%;
+}
+
+.meme-text{
+  width:100%;
+  color:white;
+  font-size:4em;
+  text-align:center;
+  position: absolute;
+}
+
+.top{
+  top:3rem;
+}
+
+.bottom{
+  bottom:3rem;
+}
+
+.footer{
+  height: 80px;
+  font-size: 1.5em;
+  color:white;
+  background-color: aquamarine;
+  padding-top:2em;
+  text-align:center;
+}
